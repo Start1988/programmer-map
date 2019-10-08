@@ -1,0 +1,29 @@
+Windows Registry Editor Version 5.00
+
+
+
+
+[HKEY_CLASSES_ROOT\*\shell\Clion]
+@="Open with Clion64"
+"Icon"="C:\\Program Files\\JetBrains\\CLion 2019.2\\bin\\clion64.exe"
+
+[HKEY_CLASSES_ROOT\*\shell\Clion\command]
+@="\"C:\\Program Files\\JetBrains\\CLion 2019.2\\bin\\clion64.exe\" \"%1\""
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\Clion]
+@="Open with Clion64"
+"Icon"="C:\\Program Files\\JetBrains\\CLion 2019.2\\bin\\clion64.exe"
+
+[HKEY_CLASSES_ROOT\Directory\shell\Clion\command]
+@="\"C:\\Program Files\\JetBrains\\CLion 2019.2\\bin\\clion64.exe\" \"%V\""
+
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Clion]
+@="Open with Clion64"
+"Icon"="C:\\Program Files\\JetBrains\\CLion 2019.2\\bin\\clion64.exe"
+
+[HKEY_CLASSES_ROOT\Directory\Background\shell\Clion\command]
+@="\"C:\\Program Files\\JetBrains\\CLion 2019.2\\bin\\clion64.exe\" \"%V\""
